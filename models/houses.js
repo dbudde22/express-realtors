@@ -1,19 +1,35 @@
 const houses = [
     {
-        name: "triangleA",
-        address: "West Guadalupe St",
-        sqFt: 1000,
+        name: "The Elm Street Bungalow",
+        address: "37 Elm St",
+        sqFt: 1300,
         bedrooms: 1,
-        price: 1800,
-        isPetFriendly: true,
+        price: "550,000",
+        isAffordable: true,
     },
     {
-        name: "triangleB",
-        address: "West Guadalupe St",
-        sqFt: 1300,
+        name: "The Purple House",
+        address: "413 S Burrell St",
+        sqFt: 4500,
+        bedrooms: 4,
+        price: "$1,300,000",
+        isAffordable: false,
+    },
+    {
+        name: "The MidMod Craftsman",
+        address: "45 Avenue B",
+        sqFt: 2500,
         bedrooms: 2,
-        price: 2300,
-        isPetFriendly: true,
+        price: "$1,100,000",
+        isAffordable: false,
+    },
+    {
+        name: "The Ranch House",
+        address: "300 Dandelion Way",
+        sqFt: 3000,
+        bedrooms: 3,
+        price: "$900,500",
+        isAffordable: false,
     }
 ]
 

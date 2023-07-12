@@ -9,14 +9,20 @@
     <title>Apartment and House Info</title>
 </head>
 <body>
-    <form class="aptInputForm">
-        <input type="text"  value="" placeholder="Enter an apartment id"  id="aptInputBar">
-        <input type="submit"  value="Request apt info" id="aptInputButton">
+    <div id="homeTypeChooser">
+        <input class="chooser" type="radio" id="chooseApt" name="drone" value="apartments" checked="">
+        <label for="apartment">Apartment</label>
+        <input class="chooser" type="radio" id="chooseHouse" name="drone" value="houses">
+        <label for="house">House</label>
+    </div>
+    <form class="inputForm">
+        <input type="text"  value="" placeholder="Enter an id"  id="inputBar">
+        <input type="submit"  value="Request info" id="inputButton">
     </form>
-    <form class="houseInputForm">
+    <!-- <form class="houseInputForm">
         <input type="text"  value="" placeholder="Enter a house id"  id="houseInputBar">
         <input type="submit"  value="Request house info" id="houseInputButton">
-    </form>
+    </form> -->
 
     <h1 id="name"> </h1>
     <h2 id="address"> </h2>
