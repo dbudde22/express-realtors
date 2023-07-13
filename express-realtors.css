@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(7, 83, 53);
+    font-family: 'Montserrat-Light', Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5%;
+    color: white;
+}
+
+#homeTypeChooser {
+    padding: 2rem;
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#inputButton {
+    background-color: whitesmoke;
+    color: rgb(7, 83, 53);
+    border: 1px black solid; 
+    border-radius: 4px;
+    padding: 8px 32px;
+    margin: 8px;
+}
+
+#inputBar {
+    padding: 8px; 
+    border: none;
+    border-radius: 8px;
+}
+
+p {
+    font-weight: 800;
+    line-height: 2rem;
+}
